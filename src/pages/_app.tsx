@@ -1,10 +1,6 @@
 import type { AppProps } from 'next/app';
-import Layouts from '../layouts/Layouts';
+import Script from 'next/script';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <Layouts>
-      <Component {...pageProps} />
-    </Layouts>
-  );
+  return <Component {...pageProps} />;
 }

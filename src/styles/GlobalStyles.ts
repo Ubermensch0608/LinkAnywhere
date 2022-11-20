@@ -126,9 +126,16 @@ export const globalStyles = css`
     border-spacing: 0;
   }
 
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  strong {
+    font-weight: 700;
+  }
   html,
   body {
-    font-family: 'Noto Sans KR', sans-serif;
   }
 
   html {
